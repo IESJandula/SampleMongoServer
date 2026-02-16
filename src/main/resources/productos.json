@@ -1,0 +1,14 @@
+[
+  {
+    "nombre_producto": "Ratón",
+    "descripcion_producto": "Ratón inalámbrico",
+    "precio_producto": 25,
+    "stock_producto": 10
+  },
+  {
+    "nombre_producto": "Teclado",
+    "descripcion_producto": "Teclado mecánico",
+    "precio_producto": 60,
+    "stock_producto": 5
+  }
+]
