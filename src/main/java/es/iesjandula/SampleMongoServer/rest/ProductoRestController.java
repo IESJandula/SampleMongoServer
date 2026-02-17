@@ -99,5 +99,4 @@ public class ProductoRestController {
         productoRepository.deleteAll();
         return "Todos los productos eliminados";
     }
-
 }
