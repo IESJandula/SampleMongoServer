@@ -152,8 +152,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "GET http://localhost:8085/clientes/importarClientes",
-              "protocol": "GET http",
+              "raw": "http://localhost:8085/clientes/importarClientes",
+              "protocol": "http",
               "host": [
                 "localhost"
               ],
@@ -172,8 +172,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "GET http://localhost:8085/clientes/listaClientes",
-              "protocol": "GET http",
+              "raw": "http://localhost:8085/clientes/listaClientes",
+              "protocol": "http",
               "host": [
                 "localhost"
               ],
@@ -201,8 +201,8 @@
               }
             },
             "url": {
-              "raw": "POST http://localhost:8085/clientes/crearCliente",
-              "protocol": "POST http",
+              "raw": "http://localhost:8085/clientes/crearCliente",
+              "protocol": "http",
               "host": [
                 "localhost"
               ],
@@ -221,8 +221,8 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "DELETE http://localhost:8085/clientes/eliminarCliente/CLI-011",
-              "protocol": "DELETE http",
+              "raw": "http://localhost:8085/clientes/eliminarCliente/CLI-011",
+              "protocol": "http",
               "host": [
                 "localhost"
               ],
@@ -242,8 +242,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "GET http://localhost:8085/clientes/obtenerCliente/CLI-011",
-              "protocol": "GET http",
+              "raw": "http://localhost:8085/clientes/obtenerCliente/CLI-011",
+              "protocol": "http",
               "host": [
                 "localhost"
               ],
@@ -263,150 +263,14 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "http://localhost:8085/productos/borrarTodo",
+              "raw": "http://localhost:8085/clientes/borrarTodo",
               "protocol": "http",
               "host": [
                 "localhost"
               ],
               "port": "8085",
               "path": [
-                "productos",
-                "borrarTodo"
-              ]
-            }
-          },
-          "response": []
-        }
-      ]
-    },
-    {
-      "name": "Pedidos",
-      "item": [
-        {
-          "name": "importar pedidos",
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "GET http://localhost:8085/pedidos/importarPedidos",
-              "protocol": "GET http",
-              "host": [
-                "localhost"
-              ],
-              "port": "8085",
-              "path": [
-                "pedidos",
-                "importarPedidos"
-              ]
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "listar pedidos",
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "GET http://localhost:8085/pedidos/listaPedidos",
-              "protocol": "GET http",
-              "host": [
-                "localhost"
-              ],
-              "port": "8085",
-              "path": [
-                "pedidos",
-                "listaPedidos"
-              ]
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "crear pedido",
-          "request": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"id\": \"PED-011\",\r\n  \"id_cliente\": \"CLI-011\",\r\n  \"productos_ids\": [\"PROD-011\", \"PROD-003\"],\r\n  \"total_pedido\": 205\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": {
-              "raw": "POST http://localhost:8085/pedidos/crearPedido",
-              "protocol": "POST http",
-              "host": [
-                "localhost"
-              ],
-              "port": "8085",
-              "path": [
-                "pedidos",
-                "crearPedido"
-              ]
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "eliminar pedido",
-          "request": {
-            "method": "DELETE",
-            "header": [],
-            "url": {
-              "raw": "DELETE http://localhost:8085/pedidos/eliminarPedido/PED-011",
-              "protocol": "DELETE http",
-              "host": [
-                "localhost"
-              ],
-              "port": "8085",
-              "path": [
-                "pedidos",
-                "eliminarPedido",
-                "PED-011"
-              ]
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "buscar pedido",
-          "request": {
-            "method": "GET",
-            "header": [],
-            "url": {
-              "raw": "GET http://localhost:8085/pedidos/obtenerPedido/PED-011",
-              "protocol": "GET http",
-              "host": [
-                "localhost"
-              ],
-              "port": "8085",
-              "path": [
-                "pedidos",
-                "obtenerPedido",
-                "PED-011"
-              ]
-            }
-          },
-          "response": []
-        },
-        {
-          "name": "borrar Todo",
-          "request": {
-            "method": "DELETE",
-            "header": [],
-            "url": {
-              "raw": "DELETE http://localhost:8085/pedidos/borrarTodo",
-              "protocol": "DELETE http",
-              "host": [
-                "localhost"
-              ],
-              "port": "8085",
-              "path": [
-                "pedidos",
+                "clientes",
                 "borrarTodo"
               ]
             }
