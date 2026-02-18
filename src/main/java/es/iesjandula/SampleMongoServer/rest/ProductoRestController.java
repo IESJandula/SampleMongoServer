@@ -47,14 +47,14 @@ public class ProductoRestController {
     }
 
 
-    // 🔹 Listar todos los productos
+    // Listar todos los productos
     @GetMapping("listaProductos")
     public List<Producto> obtenerProductos() 
     {
         return productoRepository.findAll();
     }
 
-    // 🔹 Obtener producto por id
+    // Obtener producto por id
     @GetMapping("/obtenerProducto/{id}")
     public Object obtenerProductoPorId(@PathVariable String id) {
 
@@ -65,7 +65,7 @@ public class ProductoRestController {
         return productoRepository.findById(id).get();
     }
 
-    // 🔹 Crear producto
+    // Crear producto
     @PostMapping("/crearProducto")
     public String crearProducto(@RequestBody Producto producto) 
     {
@@ -79,7 +79,7 @@ public class ProductoRestController {
     	    return "Producto creado correctamente";
     }
 
-    // 🔹 Eliminar producto
+    // Eliminar producto
     @DeleteMapping("/eliminarProducto/{id}")
     public String eliminar(@PathVariable String id) 
     {

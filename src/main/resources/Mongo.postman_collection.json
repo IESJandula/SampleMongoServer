@@ -1,0 +1,419 @@
+{
+  "info": {
+    "_postman_id": "18165ad6-b669-4da5-9986-12f9ca436111",
+    "name": "Mongo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48518699",
+    "_collection_link": "https://go.postman.co/collection/48518699-18165ad6-b669-4da5-9986-12f9ca436111?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Productos",
+      "item": [
+        {
+          "name": "importar productos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8085/productos/importarProductos",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "productos",
+                "importarProductos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "listar productos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8085/productos/listaProductos",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "productos",
+                "listaProductos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "crear producto",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": \"PROD-011\",\r\n  \"nombre_producto\": \"Cámara\",\r\n  \"descripcion_producto\": \"Cámara HD\",\r\n  \"precio_producto\": 150,\r\n  \"stock_producto\": 6\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8085/productos/crearProducto",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "productos",
+                "crearProducto"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "eliminar producto",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8085/productos/eliminarProducto/PROD-011",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "productos",
+                "eliminarProducto",
+                "PROD-011"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "buscar producto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8085/productos/obtenerProducto/PROD-011",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "productos",
+                "obtenerProducto",
+                "PROD-011"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "borrar Todo",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8085/productos/borrarTodo",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "productos",
+                "borrarTodo"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Clientes",
+      "item": [
+        {
+          "name": "importar clientes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "GET http://localhost:8085/clientes/importarClientes",
+              "protocol": "GET http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "clientes",
+                "importarClientes"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "listar clientes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "GET http://localhost:8085/clientes/listaClientes",
+              "protocol": "GET http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "clientes",
+                "listaClientes"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "crear cliente",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": \"CLI-011\",\r\n  \"nombre_cliente\": \"Manuel Carmona\",\r\n  \"email_cliente\": \"manucarmona@gmail.com\",\r\n  \"telefono_cliente\": \"602111111\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "POST http://localhost:8085/clientes/crearCliente",
+              "protocol": "POST http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "clientes",
+                "crearCliente"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "eliminar cliente",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "DELETE http://localhost:8085/clientes/eliminarCliente/CLI-011",
+              "protocol": "DELETE http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "clientes",
+                "eliminarCliente",
+                "CLI-011"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "buscar cliente",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "GET http://localhost:8085/clientes/obtenerCliente/CLI-011",
+              "protocol": "GET http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "clientes",
+                "obtenerCliente",
+                "CLI-011"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "borrar Todo",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8085/productos/borrarTodo",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "productos",
+                "borrarTodo"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Pedidos",
+      "item": [
+        {
+          "name": "importar pedidos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "GET http://localhost:8085/pedidos/importarPedidos",
+              "protocol": "GET http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "pedidos",
+                "importarPedidos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "listar pedidos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "GET http://localhost:8085/pedidos/listaPedidos",
+              "protocol": "GET http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "pedidos",
+                "listaPedidos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "crear pedido",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": \"PED-011\",\r\n  \"id_cliente\": \"CLI-011\",\r\n  \"productos_ids\": [\"PROD-011\", \"PROD-003\"],\r\n  \"total_pedido\": 205\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "POST http://localhost:8085/pedidos/crearPedido",
+              "protocol": "POST http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "pedidos",
+                "crearPedido"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "eliminar pedido",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "DELETE http://localhost:8085/pedidos/eliminarPedido/PED-011",
+              "protocol": "DELETE http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "pedidos",
+                "eliminarPedido",
+                "PED-011"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "buscar pedido",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "GET http://localhost:8085/pedidos/obtenerPedido/PED-011",
+              "protocol": "GET http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "pedidos",
+                "obtenerPedido",
+                "PED-011"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "borrar Todo",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "DELETE http://localhost:8085/pedidos/borrarTodo",
+              "protocol": "DELETE http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8085",
+              "path": [
+                "pedidos",
+                "borrarTodo"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

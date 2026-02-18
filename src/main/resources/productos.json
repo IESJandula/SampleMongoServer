@@ -1,16 +1,12 @@
 [
-  {
-    "id": "PROD-001",
-    "nombre_producto": "Ratón",
-    "descripcion_producto": "Ratón inalámbrico",
-    "precio_producto": 25,
-    "stock_producto": 10
-  },
-  {
-    "id": "PROD-002",
-    "nombre_producto": "Teclado",
-    "descripcion_producto": "Teclado mecánico",
-    "precio_producto": 60,
-    "stock_producto": 5
-  }
+  { "id": "PROD-001", "nombre_producto": "Ratón", "descripcion_producto": "Ratón inalámbrico", "precio_producto": 25, "stock_producto": 10 },
+  { "id": "PROD-002", "nombre_producto": "Teclado", "descripcion_producto": "Teclado mecánico", "precio_producto": 60, "stock_producto": 5 },
+  { "id": "PROD-003", "nombre_producto": "Monitor", "descripcion_producto": "Monitor 24 pulgadas", "precio_producto": 180, "stock_producto": 7 },
+  { "id": "PROD-004", "nombre_producto": "Auriculares", "descripcion_producto": "Auriculares Bluetooth", "precio_producto": 75, "stock_producto": 12 },
+  { "id": "PROD-005", "nombre_producto": "Impresora", "descripcion_producto": "Impresora láser", "precio_producto": 220, "stock_producto": 4 },
+  { "id": "PROD-006", "nombre_producto": "Webcam", "descripcion_producto": "Webcam Full HD", "precio_producto": 50, "stock_producto": 15 },
+  { "id": "PROD-007", "nombre_producto": "Tablet", "descripcion_producto": "Tablet Android 10\"", "precio_producto": 250, "stock_producto": 8 },
+  { "id": "PROD-008", "nombre_producto": "Disco Duro", "descripcion_producto": "Disco SSD 1TB", "precio_producto": 120, "stock_producto": 20 },
+  { "id": "PROD-009", "nombre_producto": "Portátil", "descripcion_producto": "Portátil i7 16GB RAM", "precio_producto": 900, "stock_producto": 3 },
+  { "id": "PROD-010", "nombre_producto": "Altavoces", "descripcion_producto": "Altavoces estéreo", "precio_producto": 40, "stock_producto": 18 }
 ]

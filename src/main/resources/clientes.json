@@ -1,0 +1,12 @@
+[
+  { "id": "CLI-001", "nombre_cliente": "Juan Pérez", "email_cliente": "juan@gmail.com", "telefono_cliente": "600111111" },
+  { "id": "CLI-002", "nombre_cliente": "Ana López", "email_cliente": "ana@gmail.com", "telefono_cliente": "600222222" },
+  { "id": "CLI-003", "nombre_cliente": "Carlos Ruiz", "email_cliente": "carlos@gmail.com", "telefono_cliente": "600333333" },
+  { "id": "CLI-004", "nombre_cliente": "Lucía Torres", "email_cliente": "lucia@gmail.com", "telefono_cliente": "600444444" },
+  { "id": "CLI-005", "nombre_cliente": "Pedro Sánchez", "email_cliente": "pedro@gmail.com", "telefono_cliente": "600555555" },
+  { "id": "CLI-006", "nombre_cliente": "Marta Díaz", "email_cliente": "marta@gmail.com", "telefono_cliente": "600666666" },
+  { "id": "CLI-007", "nombre_cliente": "Sergio Gómez", "email_cliente": "sergio@gmail.com", "telefono_cliente": "600777777" },
+  { "id": "CLI-008", "nombre_cliente": "Elena Martín", "email_cliente": "elena@gmail.com", "telefono_cliente": "600888888" },
+  { "id": "CLI-009", "nombre_cliente": "Raúl Navarro", "email_cliente": "raul@gmail.com", "telefono_cliente": "600999999" },
+  { "id": "CLI-010", "nombre_cliente": "Laura Fernández", "email_cliente": "laura@gmail.com", "telefono_cliente": "601000000" }
+]
